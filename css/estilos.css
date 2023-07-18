@@ -1,4 +1,13 @@
-
+body {
+    background-image: url(/img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0%;
+    display: grid;
+}
 .caja2{
     margin-bottom: 20px;
 }
@@ -27,16 +36,6 @@ p{
     color: aqua;
     font-family: Verdana;
     font-size: 120%;
-}
-body {
-    background-image: url(/img/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment: fixed;
-    font-family: sans-serif;
-    margin: 0%;
-    display: grid;
 }
 a {
     text-decoration: none;
