@@ -1,0 +1,56 @@
+
+.caja2{
+    margin-bottom: 20px;
+}
+.caja1{
+    margin:20px;
+    margin-bottom:30px; 
+}
+.img .logo{
+    height:20x;
+    width: 40px;
+    display: flex;
+}
+.plantacolor{
+    background-color: #000000;
+    text-align: center;
+}
+.buttonproductos{
+    display: flex;
+}
+img:hover{
+    transform:scale(1.1) ;
+cursor: pointer;
+transition: .5s;
+}
+p{
+    color: aqua;
+    font-family: Verdana;
+    font-size: 120%;
+}
+body {
+    background-image: url(/img/fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    margin: 0%;
+    display: grid;
+}
+a {
+    text-decoration: none;
+    color: rgb(9, 172, 236);
+}
+section article p{
+    line-height: 2;
+    background-color: rgb(103, 103, 219);
+}
+h2 {
+    color: crimson;
+}
+h3{
+    color: brown;
+}
+
+
