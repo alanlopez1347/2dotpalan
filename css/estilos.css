@@ -13,8 +13,9 @@ body {
     margin-bottom: 20px;
 }
 .caja1{
-    margin:20px;
-    margin-bottom:30px; 
+    /* margin:20px; */
+    margin-bottom:30px;
+    margin-top: 20px; 
 }
 .img .logo{
     height:20x;
