@@ -1,57 +1,71 @@
-body {   
-    background-image: url(../img/fondo1.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position:center;
-    background-attachment: fixed;
-    font-family: sans-serif;
-    margin: 0%;
-    display: grid;
+body {
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: sans-serif;
+  margin: 0%;
+  display: grid;
+}
+body section .fondocolor {
+  background-color: #0c1625;
+}
+body section h2 {
+  color: #46ffa9;
+  text-align: center;
+}
+body nav div img .logo {
+  height: 20x;
+  width: 40px;
+  display: flex;
 }
 
-.caja2{
-    margin-bottom: 20px;
+main div .radio {
+  padding: 5px 30px;
 }
-.caja1{
-    /* margin:20px; */
-    margin-bottom:30px;
-    margin-top: 20px; 
+main div .fondocolor {
+  background-color: #011900;
 }
-.img .logo{
-    height:20x;
-    width: 40px;
-    display: flex;
+main div h3 {
+  color: #46ffa9;
+  text-align: center;
 }
-.plantacolor{
-    background-color: #000000;
-    text-align: center;
+main div p {
+  color: rgb(127, 12, 221);
+  font-family: Verdana;
+  font-size: 120%;
+  text-align: center;
 }
-.buttonproductos{
-    display: flex;
+main div .caja1 {
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
-img:hover{
-    transform:scale(1.1) ;
-cursor: pointer;
-transition: .5s;
+main div .caja2 {
+  margin-bottom: 20px;
 }
-p{
-    color: aqua;
-    font-family: Verdana;
-    font-size: 120%;
-}
+
 a {
-    text-decoration: none;
-    color: rgb(9, 172, 236);
-}
-section article p{
-    line-height: 2;
-    background-color: rgb(103, 103, 219);
-}
-h2 {
-    color: crimson;
-}
-h3{
-    color: brown;
+  text-decoration: none;
+  color: rgb(238, 222, 5);
 }
 
+footer article {
+  background-color: #46ffa9;
+  margin-top: 40px;
+}
+footer .fondocolor {
+  background-color: #0c1625;
+}
+footer h3 {
+  color: #46ffa9;
+  text-align: center;
+}
 
+img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=estilos.css.map */
